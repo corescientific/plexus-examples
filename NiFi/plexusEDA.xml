@@ -293,7 +293,7 @@
                 <autoTerminate>true</autoTerminate>
                 <name>output stream</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
         </processors>
@@ -418,7 +418,7 @@
                 <autoTerminate>false</autoTerminate>
                 <name>output stream</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
         </processors>
@@ -518,7 +518,7 @@
                 <autoTerminate>true</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.AttributesToCSV</type>
         </processors>
@@ -625,7 +625,7 @@
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
         </processors>
@@ -705,7 +705,7 @@
                     </entry>
                     <entry>
                         <key>Command Arguments</key>
-                        <value>plexus-load.py;/home/acc/data/boston.csv;2</value>
+                        <value>plexus-load.py;/home/acc/data/boston.csv</value>
                     </entry>
                     <entry>
                         <key>Command Path</key>
@@ -750,10 +750,10 @@
                 <autoTerminate>false</autoTerminate>
                 <name>output stream</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
         </processors>
     </snippet>
-    <timestamp>02/25/2021 16:52:58 UTC</timestamp>
+    <timestamp>02/25/2021 17:06:30 UTC</timestamp>
 </template>
